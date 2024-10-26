@@ -1,0 +1,1636 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Kanit';
+
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url(./styles/fonts/Kanit/Kanit-Regular.ttf);
+}
+
+.header {
+
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.header-icon {
+    position: absolute;
+    top: 49px;
+    left: 47px;
+}
+
+.slider {
+
+
+    margin: 0 auto;
+    width: 1440px;
+    display: flex;
+
+}
+
+.sliderLeft {
+    width: 720px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./styles/philip-martin-5aGUyCW_PJw-unsplash.jpg);
+}
+
+.sliderRight {
+    width: 720px;
+    padding-bottom: 150px;
+    background-color: black;
+}
+
+.HeaderLink {
+    display: inline-block;
+    width: 157px;
+    height: 30px;
+}
+
+.headerLogo {
+    width: 157px;
+    height: 30px;
+}
+
+.upperblok {
+    display: flex;
+    width: 100%;
+    margin-top: 107px;
+}
+
+.date {
+    font-size: 14px;
+    display: inline-block;
+    width: 136px;
+    height: 21px;
+
+    margin-left: 108px;
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 7px;
+
+}
+
+.Plifestyle {
+    font-size: 16px;
+    display: inline-block;
+    width: 75px;
+    height: 24px;
+    margin-left: 291px;
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.slidZah {
+    width: 503px;
+    height: 42px;
+
+    margin-left: 108px;
+    margin-top: 66px;
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.slidPar {
+    width: 503px;
+    height: 42px;
+    margin-top: 29px;
+    margin-left: 108px;
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+.readMore {
+    width: 198px;
+    height: 55px;
+    border: 1px solid white;
+    margin-top: 54px;
+    margin-left: 108px;
+    color: #FFF;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fetured {
+    margin: 55px 0 0;
+}
+
+.secondImg {
+    display: flex;
+    margin-top: 34px;
+}
+
+.first,
+.second {
+    width: 557px;
+    height: 368px;
+}
+
+.first {
+    background-image: url(./styles/Screen\ Shot\ 2560-08-18\ at\ 4.23.48\ PM.png);
+
+}
+
+.second {
+    background-image: url(./styles/biocarbon-drone.jpg.650x0_q70_crop-smart.png);
+
+}
+
+.featured {
+    color: #1F1F1D;
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 1142px;
+    margin: 0 auto 0 auto;
+    margin-top: 59px;
+}
+
+.secondBigBlok {
+    margin-top: 30px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1141px;
+}
+
+.leftPart {
+
+    width: 559px;
+}
+
+.leftSideImg {
+    width: 557px;
+    height: 368px;
+}
+
+.dateNstyleL {
+    display: flex;
+    width: 368px;
+    height: 47px;
+}
+
+.leftSectImg,
+.leftSctDown {
+    vertical-align: top;
+}
+
+.leftSectImg4,
+.MiddSctDown4 {
+    vertical-align: top;
+}
+
+.middSectImg4,
+.MiddSctDown4 {
+    vertical-align: top;
+}
+
+.leftDate {
+    width: 117px;
+    height: 18px;
+    color: #000;
+    font-family: Kanit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 6px;
+    margin-top: 26px;
+}
+
+.leftStyle {
+    width: 57px;
+    height: 18px;
+    margin-top: 29px;
+    margin-left: 381px;
+    color: #000;
+    text-align: right;
+    font-family: Kanit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.leftPblok1 {
+    color: #1F1F1D;
+    font-family: Kanit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 31px;
+    width: 557px;
+    height: 72px;
+}
+
+.leftPblok2 {
+    color: #1F1F1D;
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 19px;
+    width: 557px;
+    height: 54px;
+}
+
+.rightPart {
+    display: flex;
+    flex-direction: column;
+    width: 559px;
+    margin-left: 27px;
+}
+
+.rightSideImg {
+    width: 557px;
+    height: 368px;
+}
+
+.dateNstyleR {
+    display: flex;
+    width: 368px;
+
+}
+
+.thirdBigBlok {
+    display: flex;
+
+    margin-top: 63px;
+}
+
+.tripleblok {
+    width: 1143px;
+    display: flex;
+    margin: 0 auto 0 auto;
+}
+
+.leftSectImg {
+    width: 363px;
+    height: 240px;
+}
+
+.middSect:not(:first-child) {
+    margin-left: 27px;
+}
+
+.middSectImg {
+    width: 363px;
+    height: 240px;
+}
+
+.middSect {
+    width: 363px;
+}
+
+.rightSectImg {
+    width: 363px;
+    height: 240px;
+
+}
+
+.lefSecttDate {
+    width: 117px;
+    height: 18px;
+    margin-top: 26px;
+    color: #000;
+    font-family: Kanit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 6px;
+
+}
+
+
+.leftSctDown {
+    display: flex;
+    width: 363px;
+}
+
+.MiddSctDown {
+    display: flex;
+    width: 363px;
+}
+
+.middSecttDate {
+    width: 117px;
+    height: 18px;
+    margin-top: 26px;
+    color: #000;
+    font-family: Kanit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 6px;
+}
+
+.middSectStyle {
+    width: 57px;
+    height: 18px;
+    margin-top: 29px;
+    color: #000;
+    text-align: right;
+    font-family: Kanit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+
+}
+
+.rightSctDown {
+    display: flex;
+    width: 363px;
+}
+
+.middSect {}
+
+
+.leftDiv,
+.midDiv,
+.rightDiv {
+    width: 363px;
+
+    margin-top: 22px;
+    color: #1F1F1D;
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.leftDiv {
+    margin-left: auto;
+}
+
+.leftDiv2 {
+    width: 363px;
+    height: 27px;
+    margin-top: 22px;
+    color: #1F1F1D;
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+
+.allsee {
+    width: 238px;
+    height: 42px;
+    background-color: #303030;
+    margin: 63px auto 0 auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.twistBloks {
+    width: 1143.5px;
+    margin: 71.33px auto 0 auto;
+    display: flex;
+
+}
+
+.subscribe {
+    width: 198px;
+    height: 42px;
+    margin-top: 20px;
+    margin-left: 187px;
+    color: #FFF;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 1px solid #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twistImg {
+    width: 571.5px;
+    height: 360px;
+
+}
+
+
+
+.blkImg {
+    width: 571.5px;
+    height: 360px;
+    margin-left: 27px;
+    background-color: #000;
+}
+
+.interview {
+    width: 1140px;
+    height: 27px;
+    margin: 63.67px auto 0 auto;
+    color: #1F1F1D;
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.fourthBigBlok {
+    display: flex;
+    margin: 31px auto 0 auto;
+    width: 1143px;
+
+}
+
+.fourthBBlok {
+    display: flex;
+    margin: 0 auto 0 auto;
+}
+
+.leftSectImg4,
+.middSectImg4,
+.rightSectImg4 {
+    width: 363px;
+    height: 240px;
+}
+
+.middSect4 {
+    width: 363px;
+
+}
+
+
+
+
+.leftSctDown4,
+.MiddSctDown4,
+.rightSctDown4 {
+    display: flex;
+    width: 363px;
+}
+
+.lefSecttDate4 {
+    width: 117px;
+    height: 18px;
+    margin-top: 26px;
+    color: #000;
+    font-family: Kanit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 6px;
+    margin-left: 150px;
+}
+
+.middSect4:not(:first-child) {
+    margin-left: 27px;
+}
+
+.middSecttDate4 {
+    width: 117px;
+    height: 18px;
+    margin-top: 26px;
+    color: #000;
+    font-family: Kanit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 6px;
+
+}
+
+.rightSect4 {
+    margin-left: 27px;
+}
+
+.middSectIntr {
+    width: 57px;
+    height: 18px;
+    margin-top: 29px;
+    color: #000;
+    text-align: right;
+    font-family: Kanit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-left: 178px;
+}
+
+.rightSecttDate4 {
+    width: 117px;
+    height: 18px;
+    margin-top: 26px;
+    color: #000;
+    font-family: Kanit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 6px;
+
+}
+
+.rightSectIntr {
+    width: 57px;
+    height: 18px;
+    margin-top: 29px;
+    color: #000;
+    text-align: right;
+    font-family: Kanit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-left: 178px;
+}
+
+.rightDiv4 {
+    width: 363px;
+    height: 27px;
+    margin-top: 22px;
+    color: #1F1F1D;
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.news {
+    width: 1140px;
+    height: 27px;
+    margin: 33px auto 0 auto;
+    color: #1F1F1D;
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.lowblok {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footImg {
+    width: 142px;
+    height: 27px;
+}
+
+.blackText {
+    width: 335px;
+    height: 51px;
+    margin-top: 123.67px;
+    margin-left: 116px;
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.middSectIntr5 {
+    width: 57px;
+    height: 18px;
+    margin-top: 29px;
+    color: #000;
+    text-align: right;
+    font-family: Kanit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-left: 213px;
+}
+
+.middSectStyle {
+    margin-left: auto;
+
+}
+
+
+.header-icon-two {
+    display: none;
+}
+
+@media screen and (max-width:1439px) {
+    .header-icon-two {
+        display: block;
+    }
+
+    .header-icon-one {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:1239px) {
+    .Plifestyle {
+        display: none;
+    }
+}
+
+
+@media (min-width:1240px) and (max-width:1439px) {
+
+    .header-icon {
+        top: 51px;
+        left: 51px;
+    }
+
+    .middSect:not(:first-child) {
+        margin-left: 30px;
+    }
+
+    .slider {
+        width: 1240px;
+
+    }
+
+    .sliderLeft {
+        width: 620px;
+        height: 614px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sliderRight {
+        width: 620px;
+        padding-bottom: 124px;
+        ;
+        background-color: black;
+    }
+
+    .date {
+        width: 136px;
+        height: 21px;
+        letter-spacing: 6px;
+        margin-left: 104px;
+    }
+
+    .Plifestyle {
+        margin-left: 196px;
+    }
+
+    .leftSideImg,
+    .dateNstyleL {
+        vertical-align: top;
+    }
+
+    .leftSectImg4,
+    .middSectImg4,
+    .rightSectImg4 {
+        width: 295px;
+        height: 195px;
+
+    }
+
+    .leftSectImg,
+    .leftSctDown {
+        vertical-align: top;
+    }
+
+    .leftSectImg4,
+    .MiddSctDown4 {
+        vertical-align: top;
+    }
+
+    .middSectImg4,
+    .MiddSctDown4 {
+        vertical-align: top;
+    }
+
+    .slidZah {
+        margin-top: 36px;
+        width: 394px;
+        height: 84px;
+    }
+
+    .slidPar {
+        width: 411px;
+        height: 63px;
+        margin-left: 105px;
+    }
+
+    .readMore {
+        margin: 36px 0 0 104px;
+    }
+
+    .leftSideImg {
+        width: 455px;
+        height: 301px;
+    }
+
+    .rightSideImg {
+        width: 456px;
+        height: 301px;
+    }
+
+    .tripleblok {
+        width: 941px;
+        margin: 59px auto 0 auto;
+    }
+
+    .thirdBigBlok {
+        width: 941px;
+        margin: 0 auto 0 auto;
+    }
+
+
+    .dateNstyleL {
+        width: 455px;
+    }
+
+    .dateNstyleR {
+        width: 456px;
+    }
+
+    .leftPblok2 {
+        width: 455px;
+        height: 81px;
+    }
+
+
+    .upperblok {
+        margin-top: 128px;
+        width: 620px;
+    }
+
+    .leftStyle {
+        margin-top: 26.69px;
+        margin-left: 281px;
+    }
+
+    .rightStyle {
+        margin-top: 26.69px;
+        margin-left: 281px;
+    }
+
+    .featured {
+        width: 941px;
+        margin: 59px auto 0 auto;
+    }
+
+    .leftSect {
+        width: 295px;
+    }
+
+    .fourthBigBlok {
+        display: flex;
+        width: 941px;
+        margin: 19px auto 0 auto;
+    }
+
+
+    .leftDiv2 {
+        margin-left: 0;
+        color: #1F1F1D;
+        font-family: Kanit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+
+    .rightSectStyle,
+    .middSectStyle,
+    .lefttSectStyle {
+        margin-left: 118px;
+        margin-top: 29px;
+
+    }
+
+    .leftSectImg,
+    .middSectImg,
+    .rightSectImg {
+        width: 293px;
+        height: 195px;
+    }
+
+    .blackText {
+        margin-left: 57px;
+    }
+
+    .middSect4 {
+        width: 295px;
+    }
+
+    .secondBigBlok {
+        width: 941px;
+        margin: 0 auto 0 auto;
+    }
+
+    .leftSectIntr,
+    .rightSectIntr,
+    .middSectIntr {
+        margin-left: 110px;
+    }
+
+    .news {
+        margin: 60px auto 0 auto;
+        width: 941px;
+        height: 27px;
+    }
+
+    .middSectIntr {
+        width: 295px;
+    }
+
+    .leftPblok1 {
+        width: 458px;
+        margin: 34px auto 0 auto;
+    }
+
+    .MiddSctDown4 {
+        width: 295px;
+    }
+
+    .middSect,
+    .leftSect,
+    .rightSect {
+
+        width: 293px;
+    }
+
+
+    .leftSctDown,
+    .MiddSctDown,
+    .rightSctDown {
+        width: 293px;
+
+    }
+
+    .leftDiv,
+    .midDiv,
+    .rightDiv {
+        width: 293px;
+
+    }
+
+    .middSect .leftDiv {
+        margin-left: 0;
+    }
+
+    .leftSect4 .leftDiv {
+        margin-left: 30px;
+    }
+
+    .rightSect4 .rightDiv4 {
+        margin-left: 30px;
+    }
+
+    .leftSect4 {
+        width: 295px;
+    }
+
+    .lefSecttDate4 {
+        width: 117px;
+        height: 18px;
+        margin-top: 26px;
+        color: #000;
+        font-family: Kanit;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 6px;
+        margin-left: 30px;
+    }
+
+    .interview {
+        width: 941px;
+        margin: 60px auto 0 auto;
+    }
+
+    .leftPart {
+        width: 457px;
+    }
+
+    .rightPart {
+        width: 458px;
+    }
+
+    .subscribe {
+        margin-left: 129px;
+    }
+
+    .twistBloks {
+        width: 941px;
+        margin: 60 auto 0 auto;
+    }
+
+    .twistImg {
+        width: 470px;
+        height: 360px;
+    }
+
+    .rightDiv4 {
+        width: 293px;
+        height: 54px;
+    }
+
+    .leftDiv2 {
+        margin-left: 30px;
+        width: 293px;
+        height: 54px;
+    }
+
+    .rightSectIntr5,
+    .middSectIntr5,
+    .leftSectIntr5 {
+        margin-left: 120px;
+    }
+
+    .blkImg {
+        width: 470px;
+        height: 360px;
+        margin: 0 auto 0 auto;
+    }
+
+
+    .footer {
+        margin-top: 87px;
+    }
+
+    .allsee {
+        margin: 60px auto 0 auto;
+    }
+
+    .mainBlok {
+        width: 100%;
+        margin: 0 auto 0 auto;
+    }
+
+    .header-icon-two {}
+}
+
+@media (min-width:768px) and (max-width:1239px) {
+    .header-icon {
+        top: 23px;
+        left: 23px;
+    }
+
+    .fourthBigBlok {
+        width: 720px;
+    }
+
+    .headerLogo {
+        width: 105px;
+        height: 20px;
+    }
+
+    .slider {
+        width: 768px;
+        margin: 23px auto 0 auto;
+    }
+
+    .sliderLeft {
+        width: 385px;
+        height: 354px;
+    }
+
+    .sliderRight {
+        width: 383px;
+        height: 354px;
+    }
+
+    .date {
+        width: 117px;
+        height: 18px;
+        margin-left: 21px;
+        font-size: 12px;
+        letter-spacing: 6px;
+    }
+
+    .slidZah {
+        width: 344px;
+        height: 27px;
+        font-size: 18px;
+        margin: 20px 0 0 21px;
+    }
+
+    .slidPar {
+        width: 343px;
+        height: 54px;
+        font-size: 12px;
+        margin: 23px 0 0 22px;
+    }
+
+    .readMore {
+        width: 198px;
+        height: 40px;
+        margin: 31px 0 0 21px;
+    }
+
+    .featured {
+        margin: 60px auto 0 auto;
+        width: 720px;
+    }
+
+    .mainBlok {
+        width: 100%;
+    }
+
+    .secondBigBlok {
+        width: 720px;
+        margin: 21px auto 0 auto;
+    }
+
+    .leftSideImg,
+    .rightSideImg {
+        width: 345px;
+        height: 228px;
+    }
+
+    .leftPart {
+        width: 347px;
+    }
+
+    .rightPart {
+        width: 347px;
+        margin-left: 29px;
+    }
+
+    .leftDate {
+        margin: 21px 0 0 0;
+    }
+
+    .leftStyle {
+        margin: 21px 0 0 171px;
+    }
+
+    .leftPblok1 {
+        width: 345px;
+        font-size: 18px;
+        margin: 16px 0 0 0;
+        height: 54px;
+        vertical-align: top;
+    }
+
+    .leftPblok2 {
+        width: 345px;
+        height: 63px;
+        font-size: 14px;
+        margin: 21px 0 0 0;
+    }
+
+    .leftSideImg,
+    .leftDate {
+        vertical-align: top;
+    }
+
+    .leftSectImg,
+    .leftSctDown {
+        vertical-align: top;
+    }
+
+    .thirdBigBlok,
+    .tripleblok {
+        width: 720px;
+    }
+
+    .thirdBigBlok {
+        margin: 36px auto 0 auto;
+    }
+
+    .leftSectImg,
+    .middSectImg,
+    .rightSectImg {
+        width: 220px;
+        height: 145px;
+    }
+
+    .middSect {
+        width: 220px;
+    }
+
+    .middSectStyle {
+        margin: 21px 0 0 46px;
+    }
+
+    .leftDiv,
+    .rightDiv {
+        width: 220px;
+        height: 48px;
+        font-size: 16px;
+        margin: 15px 0 0 0;
+    }
+
+    .leftSctDown,
+    .rightSctDown,
+    .MiddSctDown {
+        width: 220px;
+    }
+
+    .allsee {
+        margin: 49px auto 0 auto;
+    }
+
+
+
+    .twistBloks {
+        width: 720px;
+        margin: 60px auto 0 auto;
+    }
+
+    .twistImg {
+        width: 359px;
+        height: 275px;
+    }
+
+    .blkImg {
+        width: 359px;
+        height: 275px;
+        margin: 0;
+    }
+
+    .blackText {
+        width: 177px;
+        height: 27px;
+        font-size: 18px;
+        margin: 90px 0 0 90px;
+    }
+
+    .subscribe {
+        width: 198px;
+        height: 42px;
+        margin: 27px 0 0 81px;
+    }
+
+    .interview {
+        width: 720px;
+        margin: 53px auto 0 auto;
+    }
+
+    .fourthBBlok {
+        width: 720px;
+        margin-top: 32px;
+    }
+
+    .middSect4 {
+        width: 220px;
+
+    }
+
+    .leftSectImg4,
+    .middSectImg4,
+    .rightSectImg4 {
+        width: 220px;
+        height: 145px;
+    }
+
+    .leftSctDown4,
+    .MiddSctDown4,
+    .rightSctDown4 {
+        width: 220px;
+    }
+
+    .middSecttDate4 {
+        margin: 15px 0 0 0;
+    }
+
+    .middSectIntr {
+        margin: 15px 0 0 35px;
+    }
+
+    .leftDiv,
+    .midDiv,
+    .rightDiv4 {
+        width: 220px;
+        margin: 15px 0 0 0;
+    }
+
+    .middSect4:not(:first-child) {
+        margin-left: 30px;
+    }
+
+    .allsee {
+        margin: 77px auto 0 auto;
+    }
+
+    .news {
+        width: 720px;
+        margin-top: 33px;
+    }
+
+    .middSectIntr5 {
+        width: 31px;
+        margin: 13px 0 0 72px;
+    }
+
+    .footer {
+        margin-top: 70px;
+    }
+
+    .upperblok {
+
+        margin-top: 72px;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .leftStyle {
+        display: none;
+    }
+
+    .slider {
+        width: 320px;
+        display: block;
+        margin: 0 auto 0 auto;
+    }
+
+    .sliderLeft {
+        width: 320px;
+        height: 294px;
+    }
+
+    .sliderRight {
+        width: 320px;
+        height: 246px;
+    }
+
+    .upperblok {
+        width: 320px;
+        margin: 0;
+    }
+
+    .date {
+        width: 117px;
+        height: 18px;
+        margin: 15px 0 0 12px;
+    }
+
+    .slidZah {
+        width: 295px;
+        height: 27px;
+        font-size: 18px;
+        margin: 20px 13px 0 12px;
+    }
+
+    .slidPar {
+        width: 295px;
+        height: 54px;
+        font-size: 12px;
+        margin: 20px 13px 0 12px;
+    }
+
+    .readMore {
+        width: 198px;
+        height: 40px;
+        margin: 20px 0 32px 12px;
+    }
+
+    .featured {
+        width: 320px;
+        margin: 43px auto 0 auto;
+    }
+
+    .secondBigBlok {
+        width: 320px;
+        display: block;
+    }
+
+    .leftPart,
+    .rightPart {
+        width: 297px;
+        margin: 0 auto 0 auto;
+    }
+
+    .leftSideImg {
+        width: 295px;
+        height: 195px;
+    }
+
+    .date {
+        margin: 16px 0 0 12px;
+    }
+
+    .leftPblok1 {
+        width: 295px;
+
+        font-size: 18px;
+        margin-top: 16px;
+        font-weight: 500;
+    }
+
+    .secondBigBlok {
+        margin: 30px auto 0 auto;
+    }
+
+    .leftPblok2 {
+        width: 295px;
+
+        font-size: 14px;
+        margin-top: 21px;
+    }
+
+    .rightSideImg {
+        width: 295px;
+        height: 195px;
+        margin-top: 27px;
+    }
+
+    .middSect {
+        width: 297px;
+
+    }
+
+    .tripleblok {
+        width: 297px;
+        display: block;
+    }
+
+    .middSect {
+        width: 297px;
+        margin-top: 27px;
+
+    }
+
+    .leftSctDown {
+        width: 297px;
+        margin-left: 0;
+    }
+
+    .middSecttDate {
+        width: 156px;
+
+        margin-top: 13px;
+    }
+
+    .middSectStyle {
+        width: 76px;
+
+        margin-top: 13px;
+    }
+
+    .leftSectImg {
+        width: 295px;
+        height: 195px;
+    }
+
+    .thirdBigBlok {
+        margin: 0 auto 0 auto;
+    }
+
+    .leftDiv,
+    .midDiv,
+    .rightDiv {
+        width: 295px;
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    .middSect:not(:first-child) {
+        margin-top: 27px;
+        margin-left: 0;
+    }
+
+    .middSectStyle {
+        width: 76px;
+
+        margin-top: 13px 0 0 62px;
+    }
+
+    .MiddSctDown,
+    .rightSctDown {
+        width: 295px;
+    }
+
+    .allsee {
+        width: 320px;
+        margin: 31px auto 0 auto;
+    }
+
+    .twistBloks {
+        width: 320px;
+        margin: 43px auto 0 auto;
+        display: block;
+
+    }
+
+    .twistImg {
+        width: 320px;
+        height: 245px;
+    }
+
+
+
+    .blkImg {
+        overflow: auto;
+        width: 320px;
+        margin-left: 0;
+        height: 174px;
+    }
+
+    .blackText {
+        width: 177px;
+
+        margin: 39px 72px 0 70px;
+        font-size: 18px;
+    }
+
+    .subscribe {
+        width: 198px;
+
+        margin-top: 27px;
+        margin-left: 60px;
+    }
+
+    .subscribe {
+        vertical-align: top;
+    }
+
+    .interview {
+        width: 320px;
+        margin: 43px auto 0 auto;
+    }
+
+    .fourthBigBlok {
+        width: 320px;
+        margin: 16px auto 0 auto;
+    }
+
+    .fourthBBlok {
+        width: 320px;
+        display: block;
+    }
+
+    .leftSectImg4 {
+        width: 296px;
+        height: 209px;
+    }
+
+    .middSect4 {
+        width: 296px;
+        margin: 0 auto 0 auto;
+    }
+
+    .middSecttDate4 {
+        margin-top: 14px;
+    }
+
+    .middSectIntr {
+        margin-top: 14px;
+        margin-left: 102px;
+    }
+
+    .middSect4:not(:first-child) {
+        margin-left: 0;
+    }
+
+    .middSect4:not(:first-child) {
+        margin-top: 22px;
+    }
+
+    .MiddSctDown4 {
+        width: 296px;
+    }
+
+    .allsee {
+        width: 320px;
+        margin-top: 24px;
+    }
+
+    .news {
+        width: 320px;
+        margin: 43px auto 0 auto;
+    }
+
+    .rightDiv4 {
+        width: 295px;
+        margin-top: 15px;
+    }
+
+
+    .fourthBigBlok {
+        width: 320px;
+        display: block;
+        margin: 16px auto 0 auto;
+    }
+
+    .fourthBBlok {
+        width: 295px;
+        margin: 0 auto 0 auto;
+    }
+
+    .middSect4 {
+        width: 295px;
+        margin: 0;
+    }
+
+    .middSect4 {
+        width: 295px;
+        height: 259px;
+        margin: 0;
+    }
+
+    .MiddSctDown4 {
+        width: 295px;
+
+    }
+
+    .middSectImg4 {
+        width: 295px;
+        height: 194px;
+        margin: 0;
+    }
+
+    .middSecttDate4 {
+        margin-top: 5px;
+        margin: 0;
+    }
+
+    .middSectIntr5 {
+        margin: 5px 0 0 110px;
+    }
+
+
+    .mainBlok {
+        width: 320px;
+        margin: 0 auto 0 auto;
+    }
+
+    .footer {
+        margin-top: 43px auto o auto;
+        height: 163px;
+    }
+
+
+}
